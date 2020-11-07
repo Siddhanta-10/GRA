@@ -5,8 +5,23 @@
 <br>
 
 ## :sparkles: Features
-* Detect gestures: To detect hand gestures with acceptable accuracy.
-* Carryout function: Perform keystrokes when a gesture is detected. For example: Show/Hide desktop (Win + D), switch between applications (Alt + Tab) and switch between virtual desktops (Ctrl + Win + ←/→)
+* Detect gestures: To detect hand gestures with acceptable accuracy
+* Carryout function: Perform keystrokes when a gesture is detected
+
+### Gestures:
+
+<table>
+<tr>
+<td align="center"><img src="images/one.jpg" width="100px;" alt=""/><br /><sub><b>one</b></sub></a><br /></td>
+<td align="center"><img src="images/swipe_up.jpg" width="100px;" alt=""/><br /><sub><b>swipe_up</b></sub></a><br /></td>
+<td align="center"><img src="images/swipe_down.jpg" width="100px;" alt=""/><br /><sub><b>swipe_down</b></sub></a><br /></td>
+<td align="center"><img src="images/pinch_in.jpg" width="100px;" alt=""/><br /><sub><b>pinch_in</b></sub></a><br /></td>
+<td align="center"><img src="images/pinch_out.jpg" width="100px;" alt=""/><br /><sub><b>pinch_out</b></sub></a><br /></td>
+<td align="center"><img src="images/two_fingers_left.jpg" width="100px;" alt=""/><br /><sub><b>two_fingers_left</b></sub></a><br /></td>
+<td align="center"><img src="images/two_fingers_right.jpg" width="100px;" alt=""/><br /><sub><b>two_fingers_right</b></sub></a><br /></td>
+</tr>
+</table>
+
 <br>
 
 ## :joystick: Usage
@@ -15,29 +30,28 @@
 
 `python gra1.py`
 
-Show :point_up: to enable/disable gestures
+### Gestures with their functions:
+##### One : toggle gesture detection
+##### Swipe up -> swipe down : show task view -> show applications
+##### Swipe down -> swipe up : show desktop -> show applications
+##### Pinch in/out: Zoom in/out
+##### Two fingers swipe left/right : Move to virtual desktop left/right
 
-
-<table>
-<tr>
-<td align="center"><img src="images/one" width="100px;" alt=""/><br /><sub><b>one</b></sub></a><br /></td>
-<td align="center"><img src="images/swipe_up" alt=""/><br /><sub><b>one</b></sub></a><br /></td>
-<td align="center"><img src="images/swipe_down" alt=""/><br /><sub><b>one</b></sub></a><br /></td>
-</tr>
-</table>
 
 ## :nut_and_bolt: Behind the scenes
-* Our application identifies the gestures through images through image classification.
-* This image classifier is obtained from a machine learning model, which is trained using a large-enough dataset.
-* When it detects a specific gesture from the webcam, it performs action assigned to that gesture.
-* We’ll also make sure it doesn’t take accidental gestures or take too many inputs in a row.
+* Our application identifies the gestures through images through **image classification**
+* This image classifier is obtained from training the **MobileNetv2 model**
+* Around 1000 images have been trained for each of the 7 image classes
+* When it detects a specific gesture from the webcam, it performs action assigned to that gesture
+* The **Midas touch problem** (inability to turn off gestures) is solved by providing a gesture (one) to toggle the application
+* The program also doesn't take too many inputs in a row
 <br>
 
 ## :seedling: Applications
 * This can help us use the computer in a much more __accessible__ way
 * It is also very helpful to __differently abled__ people
-* The way we use technology hasn't changed since a lot of years, so love it or hate it, gestures are the future!
-* Playing games becomes more fun
+* Future is going to be dominated by **mixed reality**, smart glasses, etc. Gestures are the main way to interact with such technologies
+* Playing games becomes more **fun**
 <br>
 
 ## :hammer: Tools Used
