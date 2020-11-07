@@ -48,7 +48,7 @@ awake ? code : sleep
     <tr>
     <td align="center"><a href="https://github.com/guruprasadv22"><img src="https://avatars0.githubusercontent.com/u/44210009?s=400&u=483e3d8b62f635befb6bdb258c8b4db3bfb06990&v=4" width="100px;" alt=""/><br /><sub><b>Guruprasad V</b></sub></a></td>
     <td align="center"><a href="https://github.com/Karthikeshwar1"><img src="https://avatars2.githubusercontent.com/u/43902130?s=400&u=f8f84eaf888d3a32eaa758db8ec036a7e9f3466d&v=4" width="100px;" alt=""/><br /><sub><b>Karthikeshwar</b></sub></a><br /></td>
-      <td align="center"><a href="https://github.com/Siddhanta-10"><img src="https://avatars0.githubusercontent.com/u/49256432?s=400&v=4" alt=""/><br /><sub><b>Siddhanta Mandal</b></sub></a></td>
+      <td align="center"><a href="https://github.com/Siddhanta-10"><img src="https://avatars0.githubusercontent.com/u/49256432?s=400&v=4" width="100px;" alt=""/><br /><sub><b>Siddhanta Mandal</b></sub></a></td>
         <td align="center"><a href="https://github.com/vikasgn2"><img src="https://avatars3.githubusercontent.com/u/46003079?s=400&u=a122cc714e9090d4e1e24634c137116b84d672b9&v=4" width="100px;" alt=""/><br /><sub><b>Vikas G N</b></sub></a></td>
     </tr>
     </table>
