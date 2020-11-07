@@ -1,13 +1,19 @@
 <h1 align="center">GRA</h1>
 <h5>A program which performs specific actions based on recognized gestures.</h5>
 
-> This repository is a submission to the [REVA HACK</>2020](https://revahack.netlify.app/) by team awake ? code : sleep
+> This repository is a submission to the [REVA HACK</>2020](https://revahack.com/) by team awake ? code : sleep
 <br>
 
 ## :sparkles: Features
 * Detect gestures: To detect hand gestures with acceptable accuracy.
 * Carryout function: Perform keystrokes when a gesture is detected. For example: Show/Hide desktop (Win + D), switch between applications (Alt + Tab) and switch between virtual desktops (Ctrl + Win + ←/→)
 <br>
+
+## :joystick: Usage
+
+`pip install -r requirements.txt`
+
+`python gra1.py`
 
 ## :nut_and_bolt: Behind the scenes
 * Our application identifies the gestures through images through image classification.
@@ -20,13 +26,14 @@
 * This can help us use the computer in a much more __accessible__ way
 * It is also very helpful to __differently abled__ people
 * The way we use technology hasn't changed since a lot of years, so love it or hate it, gestures are the future!
+* Playing games becomes more fun
 <br>
 
 ## :hammer: Tools Used
 * [Python](https://www.python.org/)
 * [Tensorflow](https://www.tensorflow.org/api_docs) for Image-classification using ML.
 * [OpenCV](https://docs.opencv.org/master/d9/df8/tutorial_root.html) for image manipulation.
-* Custom Created and a few open source datasets.
+* [Plyer](https://github.com/kivy/plyer) for notifications.
 <br>
 
 ## :page_facing_up: License
