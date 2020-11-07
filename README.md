@@ -37,6 +37,8 @@
 ##### Pinch in/out: Zoom in/out
 ##### Two fingers swipe left/right : Move to virtual desktop left/right
 
+<br>
+
 
 ## :nut_and_bolt: Behind the scenes
 * Our application identifies the gestures through images through **image classification**
