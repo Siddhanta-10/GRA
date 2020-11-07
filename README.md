@@ -26,12 +26,12 @@ awake ? code : sleep
 
 ## :hammer: Tools Used
 * [Python](https://www.python.org/)
-* Tensorflow for Image-classification using ML
-* OpenCV for image manipulation
+* [Tensorflow](https://www.tensorflow.org/api_docs) for Image-classification using ML.
+* [OpenCV](https://docs.opencv.org/master/d9/df8/tutorial_root.html) for image manipulation.
 * Custom Created and a few open datasets from reliable sources.
-* [PyQt5](https://riverbankcomputing.com/software/pyqt/intro) for building GUI
-  - Install by running `pip install PyQt5` on terminal
-  - Qt for Python [documentation](https://doc.qt.io/qtforpython/)
+* [PyQt5](https://riverbankcomputing.com/software/pyqt/intro) for building GUI.
+  - Install by running `pip install PyQt5` on terminal.
+  - Qt for Python [documentation](https://doc.qt.io/qtforpython/).
 <br>
 
 ## :page_facing_up: License
