@@ -7,7 +7,6 @@
 ## :sparkles: Features
 * Detect gestures: To detect hand gestures with acceptable accuracy.
 * Carryout function: Perform keystrokes when a gesture is detected. For example: Show/Hide desktop (Win + D), switch between applications (Alt + Tab) and switch between virtual desktops (Ctrl + Win + ←/→)
-* Provide a GUI to view/change what each gesture can do.
 <br>
 
 ## :nut_and_bolt: Behind the scenes
@@ -28,10 +27,6 @@
 * [Tensorflow](https://www.tensorflow.org/api_docs) for Image-classification using ML.
 * [OpenCV](https://docs.opencv.org/master/d9/df8/tutorial_root.html) for image manipulation.
 * Custom Created and a few open source datasets.
-* [PyQt5](https://riverbankcomputing.com/software/pyqt/intro) for building GUI.
-  
-  >Install by running `pip install PyQt5` on terminal.  
-  >Qt for Python [documentation](https://doc.qt.io/qtforpython/).
 <br>
 
 ## :page_facing_up: License
