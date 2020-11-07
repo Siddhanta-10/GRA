@@ -4,7 +4,7 @@
 </h5>
 
 > This repository is a submission to the [REVA HACK 2020](https://revahack.netlify.app/) by team 
-awake ? code : sleep.
+awake ? code : sleep
 
 
 
