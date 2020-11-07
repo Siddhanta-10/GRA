@@ -15,6 +15,8 @@
 
 `python gra1.py`
 
+Show :point_up: to enable/disable gestures
+
 ## :nut_and_bolt: Behind the scenes
 * Our application identifies the gestures through images through image classification.
 * This image classifier is obtained from a machine learning model, which is trained using a large-enough dataset.
