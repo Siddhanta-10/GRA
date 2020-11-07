@@ -1,39 +1,36 @@
 <h1 align="center">GRA</h1>
 <h5>A program which performs specific actions based on recognized gestures.</h5>
-<h5>
-</h5>
-
 > This repository is a submission to the [REVA HACK 2020](https://revahack.netlify.app/) by team 
 awake ? code : sleep
-
-
-
 <br>
 
 ## :sparkles: Features
+* Detect gestures: To detect hand gestures with acceptable accuracy.
+* Carryout function: Perform keystrokes when a gesture is detected. For example: Show/Hide desktop (Win + D), switch between applications (Alt + Tab) and switch between virtual desktops (Ctrl + Win + ←/→)
+* Provide a GUI to view/change what each gesture can do.
+<br>
 
-* __Recognizes__ different gestures and performs actions which are set by user.
-* The actions are __customizable__.
-
-
+## :nut_and_bolt: Behind the scenes
+* Our application identifies the gestures through images through image classification.
+* This image classifier is obtained from a machine learning model, which is trained using a large-enough dataset.
+* When it detects a specific gesture from the webcam, it performs action assigned to that gesture.
+* We’ll also make sure it doesn’t take accidental gestures or take too many inputs in a row.
 <br>
 
 ## :seedling: Applications
-
 * This can help us use the computer in a much more __accessible__ way
 * It is also very helpful to __differently abled__ people
 * The way we use technology hasn't changed since a lot of years, so love it or hate it, gestures are the future!
-
 <br>
 
 ## :hammer: Tools Used
-
-* Python from the [Official Website](https://www.python.org/)
-* Image Processor 
+* [Python](https://www.python.org/)
+* Tensorflow for Image-classification using ML
+* OpenCV for image manipulation
+* Custom Created and a few open datasets from reliable sources.
 * [PyQt5](https://riverbankcomputing.com/software/pyqt/intro) for building GUI
   - Install by running `pip install PyQt5` on terminal
   - Qt for Python [documentation](https://doc.qt.io/qtforpython/)
-
 <br>
 
 ## :page_facing_up: License
