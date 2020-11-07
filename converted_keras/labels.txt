@@ -1,0 +1,8 @@
+0 one
+1 swipe_up
+2 swipe_down
+3 pinch_out
+4 pinch_in
+5 None
+6 two_fingers_left
+7 two_fingers_right
