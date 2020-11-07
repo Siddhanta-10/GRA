@@ -17,6 +17,15 @@
 
 Show :point_up: to enable/disable gestures
 
+
+<table>
+<tr>
+<td align="center"><img src="images/one" width="100px;" alt=""/><br /><sub><b>one</b></sub></a><br /></td>
+<td align="center"><img src="images/swipe_up" alt=""/><br /><sub><b>one</b></sub></a><br /></td>
+<td align="center"><img src="images/swipe_down" alt=""/><br /><sub><b>one</b></sub></a><br /></td>
+</tr>
+</table>
+
 ## :nut_and_bolt: Behind the scenes
 * Our application identifies the gestures through images through image classification.
 * This image classifier is obtained from a machine learning model, which is trained using a large-enough dataset.
