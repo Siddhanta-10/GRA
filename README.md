@@ -1,7 +1,7 @@
 <h1 align="center">GRA</h1>
 <h5>A program which performs specific actions based on recognized gestures.</h5>
 
-> This repository is a submission to the [REVA HACK</>2020](https://revahack.com/) by team awake ? code : sleep
+> This repository is a submission to the [REVA HACK</>2020](https://revahack.com/) by team "awake ? code : sleep"
 <br>
 
 ## :sparkles: Features
