@@ -28,7 +28,7 @@
 
 `pip install -r requirements.txt`
 
-`python gra1.py`
+`python gra.py`
 
 ### Gestures with their functions:
 ##### One : toggle gesture detection
