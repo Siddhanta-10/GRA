@@ -1,5 +1,5 @@
 Keras-Preprocessing==1.1.2
-numpy==1.18.5
+numpy==1.22.0
 Pillow==8.1.1
 plyer==1.4.3
 PyAutoGUI==0.9.52
